@@ -46,6 +46,7 @@ It provides insights into customer demographics, product performance, payment pr
 
 ---
 
+```markdown
 ## 📂 Project Structure
 ```bash
 customer-data-analysis-dashboard/
