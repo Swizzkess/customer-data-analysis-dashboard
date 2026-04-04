@@ -52,7 +52,7 @@ customer-data-analysis-dashboard/
 ├── Customer-dashboard.pbix
 ├── README.md
 ├── data/
-└── images/
+├── images/
     └── dashboard.png
 ```
 
