@@ -47,16 +47,24 @@ It provides insights into customer demographics, product performance, payment pr
 ---
 
 ## 📂 Project Structure
-
 customer-data-analysis-dashboard/
-├── Customer-dashboard.pbix
+│── customer-dashboard.pbix
+│── README.md
+│
+├── data/
 ├── images/
 │ └── dashboard.png
-├── data/
-└── README.md
-
 
 ---
+
+
+## ▶️ How to Use
+1. Download the `.pbix` file
+2. Open it using Power BI Desktop
+3. Interact with filters to explore insights
+
+---
+
 
 ## 💡 Business Recommendations
 - Focus on high-value customer segments to increase revenue  
@@ -67,5 +75,5 @@ customer-data-analysis-dashboard/
 ---
 
 ## 👤 Author
-Agberhiere Kesiena  
+Agberhiere Kesiena Perez 
 Aspiring Data Analyst | Power BI | SQL  
