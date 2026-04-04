@@ -1,4 +1,4 @@
-![Dashboard Preview](images/dashboard.png)
+
 # 🏬 Customer Data Analysis Dashboard
 
 ## 🖼️ Dashboard Preview
