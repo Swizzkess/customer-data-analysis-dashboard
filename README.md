@@ -47,13 +47,13 @@ It provides insights into customer demographics, product performance, payment pr
 ---
 
 ## 📂 Project Structure
+```bash
 customer-data-analysis-dashboard/
-│── customer-dashboard.pbix
-│── README.md
-│
+├── Customer-dashboard.pbix
+├── README.md
 ├── data/
-├── images/
-│ └── dashboard.png
+└── images/
+    └── dashboard.png
 
 ---
 
