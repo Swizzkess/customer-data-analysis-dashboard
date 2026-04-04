@@ -24,7 +24,7 @@ It provides insights into customer demographics, product performance, payment pr
 
 ## 🛠️ Tools Used
 - Power BI  
-- SQL (if applicable)  
+- SQL 
 - Excel  
 
 ---
