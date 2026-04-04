@@ -54,6 +54,7 @@ customer-data-analysis-dashboard/
 ├── data/
 └── images/
     └── dashboard.png
+```
 
 ---
 
