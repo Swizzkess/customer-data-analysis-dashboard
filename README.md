@@ -26,7 +26,18 @@ It provides insights into customer demographics, product performance, payment pr
 - Power BI  
 - SQL 
 - Excel  
+---
 
+## 📊 SQL Analysis
+
+### 🔹 KPI Calculations
+```sql
+SELECT
+    SUM(quantity * price) AS total_revenue,
+    SUM(quantity) AS total_quantity,
+    COUNT(DISTINCT invoice_no) AS total_orders,
+    SUM(quantity * price) / COUNT(DISTINCT invoice_no) AS avg_revenue_per_order
+FROM cx_dataset;
 ---
 
 ## 📊 Key Insights
