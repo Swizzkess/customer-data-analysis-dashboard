@@ -8,105 +8,64 @@
 ---
 
 
-## 📌 Project Overview
-
+📌 Project Overview
 
 This project analyzes customer purchasing behavior and revenue trends using an interactive Power BI dashboard.
 
-
-
 It delivers actionable insights into:
-
-Customer demographics
-
-Product performance
-
-Payment preferences
-
-Sales distribution across locations
-
-
+	•	Customer demographics
+	•	Product performance
+	•	Payment preferences
+	•	Sales distribution across locations
 
 The goal is to transform raw transactional data into business-driven decisions.
 
+⸻
 
----
+🎯 Objectives
+	•	Identify key revenue-driving customer segments
+	•	Analyze product category performance
+	•	Understand payment behavior
+	•	Evaluate sales across shopping malls
+	•	Detect seasonal trends
 
+⸻
 
-## 🎯 Objectives
+🛠️ Tools Used
+	•	Power BI – Data visualization & dashboarding
+	•	SQL – Data analysis & transformation
+	•	Excel – Data cleaning & preparation
 
+⸻
 
-Identify key revenue-driving customer segments
+📊 Dashboard Features
+	•	Interactive filters (Age, Gender, Category, Location)
+	•	KPI cards for quick performance tracking
+	•	Clean, business-focused UI design
+	•	Drill-down capability for deeper insights
 
-Analyze product category performance
+⸻
 
-Understand payment behavior
+📊 Key Insights
+	•	Female customers contribute the highest share of revenue
+	•	Middle-aged customers are the most valuable segment
+	•	Clothing is the top-performing category
+	•	Cash is the most preferred payment method
+	•	Mall of Istanbul generates the highest revenue
+	•	Revenue shows clear seasonal fluctuations
 
-Evaluate sales across shopping malls
+⸻
 
-Detect seasonal trends
-
-
----
-
-
-## 🛠️ Tools Used
-
-
-Power BI – Data visualization & dashboarding
-
-SQL – Data analysis & transformation
-
-Excel – Data cleaning & preparation
-
-
----
-
-
-## 📊 Dashboard Features
-
-
-Interactive filters (Age, Gender, Category, Location)
-
-KPI cards for quick performance tracking
-
-Clean, business-focused UI design
-
-Drill-down capability for deeper insights
-
-
----
-
-
-## 📊 Key Insights
-
-
-Female customers contribute the highest share of revenue
-
-Middle-aged customers are the most valuable segment
-
-Clothing is the top-performing category
-
-Cash is the most preferred payment method
-
-Mall of Istanbul generates the highest revenue
-
-Revenue shows clear seasonal fluctuations
-
-
----
-
-
-## 📊 SQL Analysis
-
+📊 SQL Analysis
 
 This section demonstrates how SQL was used to extract insights that power the dashboard and business decisions.
 
-### 🔹 KPI Calculations
+⸻
 
+🔹 KPI Calculations
 
-Objective: Evaluate overall business performance and efficiency per order.
-
+Objective:
+Evaluate overall business performance and efficiency per order.
 
 ```sql
 SELECT
@@ -119,26 +78,19 @@ FROM cx_dataset;
 
 
 💡 Business Insights:
+	•	Provides a high-level snapshot of business performance
+	•	Average revenue per order highlights customer spending behavior
+	•	A low average order value may indicate:
+	•	Need for bundling strategies
+	•	Opportunities for upselling / cross-selling
+	•	Helps evaluate sales efficiency per transaction
 
-Provides a high-level snapshot of business performance.
+⸻
 
-Average revenue per order highlights customer spending behavior.
+🟢 Revenue by Gender
 
-A low average order value may indicate:
-
-Need for bundling strategies
-Opportunities for upselling / cross-selling
-
-Helps evaluate sales efficiency per transaction
-
-
----
-
-
-### 🟢 Revenue by Gender
-
-
-Objective: Identify which customer segment contributes the most revenue.
+Objective:
+Identify which customer segment contributes the most revenue.
 
 ```sql
 SELECT
@@ -150,25 +102,18 @@ ORDER BY revenue DESC;
 ```
 
 💡 Business Insights:
+	•	Highlights top-performing customer segments
+	•	Enables targeted marketing campaigns
+	•	If one gender dominates:
+	•	Opportunity to rebalance strategy toward underperforming segments
+	•	Useful for personalized promotions and product positioning
 
-Highlights top-performing customer segments.
+⸻
 
-Enables targeted marketing campaigns.
+🟢 Revenue by Age Group
 
-If one gender dominates:
-
-Opportunity to rebalance strategy toward underperforming segment
-
-Useful for personalized promotions and product positioning.
-
-
----
-
-
-### 🟢 Revenue by Age Group
-
-
-Objective: Understand purchasing power across different age segments.
+Objective:
+Understand purchasing power across different age segments.
 
 ```sql
 SELECT
@@ -186,31 +131,21 @@ ORDER BY revenue DESC;
 
 
 💡 Business Insights:
+	•	Identifies high-value customer demographics
+	•	Helps tailor:
+	•	Product offerings
+	•	Pricing strategies
+	•	Marketing channels
+	•	Example:
+	•	Younger customers → promotions & discounts
+	•	Older customers → premium or loyalty-focused strategies
 
-Identifies high-value age demographics.
+⸻
 
-Helps tailor:
+🟢 Revenue by Product Category
 
-Product offerings
-
-Pricing strategies
-
-Marketing channels
-
-Example:
-
-Younger customers → promotions & discounts
-
-Older customers → premium or loyalty-focused strategies
-
-
----
-
-
-### 🟢 Revenue by Product Category
-
-
-Objective: Determine which product categories drive the most revenue.
+Objective:
+Determine which product categories drive the most revenue.
 
 ```sql
 SELECT
@@ -223,27 +158,19 @@ ORDER BY revenue DESC;
 
 
 💡 Business Insights:
+	•	Identifies top-performing and underperforming products
+	•	Supports:
+	•	Inventory optimization
+	•	Product expansion decisions
+	•	High-performing categories → invest more (ads, stock, visibility)
+	•	Low-performing categories → reassess pricing or demand
 
-Identifies top-performing products and underperformers.
+⸻
 
-Supports:
+🟢 Daily Revenue Trend
 
-Inventory optimization
-
-Product expansion decisions
-
-High-performing categories → invest more (ads, stock, visibility)
-
-Low-performing categories → reassess pricing or demand
-
-
----
-
-
-### 🟢 Daily Revenue Trend
-
-
-Objective: Analyze revenue patterns over time.
+Objective:
+Analyze revenue patterns over time.
 
 ```sql
 SELECT
@@ -256,23 +183,14 @@ ORDER BY sales_date;
 
 
 💡 Business Insights:
-
-Reveals sales trends and seasonality patterns.
-
-Helps detect:
-
-Peak sales days
-
-Demand fluctuations
-
-Enables:
-
-Better forecasting
-
-Improved staffing & inventory planning
-
-Can uncover impact of campaigns or external events.
-
+	•	Reveals sales trends and seasonality patterns
+	•	Helps detect:
+	•	Peak sales days
+	•	Demand fluctuations
+	•	Enables:
+	•	Better forecasting
+	•	Improved staffing & inventory planning
+	•	Can uncover impact of campaigns or external events
 
 ---
 
@@ -290,42 +208,32 @@ customer-data-analysis-dashboard/
 
 ---
 
-## 💡 Business Recommendations
-- Focus on high-value customer segments to increase revenue  
-- Optimize and expand top-performing product categories  
-- Encourage adoption of digital payment methods  
-- Improve performance in underperforming locations
-
-
----
-
-
-## ▶️ How to Use
-1. Download the `.pbix` file
-2. Open it using Power BI Desktop
-3. Interact with filters to explore insights
-
-
----
-## 🧠 Skills Demonstrated
-SQL (Aggregations, Grouping, Data Transformation)
-
-Data Visualization (Power BI)
-
-Business Analysis & Insight Generation
-
-Dashboard Design & Storytelling
-
+💡 Business Recommendations
+	•	Focus on high-value customer segments to increase revenue
+	•	Optimize and expand top-performing product categories
+	•	Encourage adoption of digital payment methods
+	•	Improve performance in underperforming locations
 
 ---
 
-## 🚀 Final Note
+▶️ How to Use
+	1.	Download the .pbix file
+	2.	Open it using Power BI Desktop
+	3.	Interact with filters to explore insights
 
+⸻
 
-This project demonstrates the ability to go beyond dashboards by combining technical SQL skills with business thinking, delivering insights that support data-driven decision-making.
+🧠 Skills Demonstrated
+	•	SQL (Aggregations, Grouping, Data Transformation)
+	•	Data Visualization (Power BI)
+	•	Business Analysis & Insight Generation
+	•	Dashboard Design & Storytelling
 
+⸻
 
----
+🚀 Final Note
+
+This project demonstrates the ability to combine technical SQL skills with business thinking, delivering insights that support data-driven decision-making.
 
 ## 👤 Author
 Agberhiere Kesiena Perez 
