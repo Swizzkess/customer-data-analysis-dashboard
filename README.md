@@ -105,7 +105,7 @@ ORDER BY revenue DESC;
 
 	•	Highlights top-performing customer segments
 	•	Enables targeted marketing campaigns
-	•	If one gender (female) dominates, it shows opportunity to rebalance strategy toward underperforming segments
+	•	If one gender dominates, it shows opportunity to rebalance strategy toward underperforming segments
 	•	Useful for personalized promotions and product positioning
 
 ---
