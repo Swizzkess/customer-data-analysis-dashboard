@@ -1,43 +1,15 @@
 
 # 🏬 Customer Data Analysis Dashboard
 
-## 🖼️ Dashboard Preview
-![Dashboard](images/dashboard.png)
-
-
----
-
-
-## 📌 Project Overview
+## 📌Overview
 
 This project analyzes customer purchasing behavior and revenue trends using an interactive Power BI dashboard.
 
-It delivers actionable insights into:
+It transforms raw transactional data into actionable business insights across customer segents, product performance and sales trends.
 
-•	Customer demographics
-	
-•	Product performance
-	
-•	Payment preferences
-	
-•	Sales distribution across locations
-	
-The goal is to transform raw transactional data into business-driven decisions.
 
 ---
 
-## 🎯 Objectives
-•	Identify key revenue-driving customer segments
-
-•	Analyze product category performance
-
-•	Understand payment behavior
-
-•	Evaluate sales across shopping malls
-
-•	Detect seasonal trends
-
----
 
 ## 🛠️ Tools Used
 •	Power BI – Data visualization & dashboarding
@@ -46,18 +18,10 @@ The goal is to transform raw transactional data into business-driven decisions.
 
 •	Excel – Data cleaning & preparation
 
----
-
-## 📊 Dashboard Features
-•	Interactive filters (Age, Gender, Category, Location)
-
-•	KPI cards for quick performance tracking
-
-•	Clean, business-focused UI design
-
-•	Drill-down capability for deeper insights
 
 ---
+
+
 
 ## 📊 Key Insights
 •	Female customers contribute the highest share of revenue
@@ -71,6 +35,14 @@ The goal is to transform raw transactional data into business-driven decisions.
 •	Mall of Istanbul generates the highest revenue
 	
 •	Revenue shows clear seasonal fluctuations
+
+
+---
+
+
+## 🖼️ Dashboard Preview
+![Dashboard](images/dashboard.png)
+
 
 ---
 
@@ -169,6 +141,18 @@ customer-data-analysis-dashboard/
 
 ---
 
+
+## ▶️ How to Use
+1.	Download the .pbix file
+
+2.	Open it using Power BI Desktop
+   
+3.	Interact with filters to explore insights
+
+
+---
+
+
 ## 💡 Business Recommendations
 •	Focus on high-value customer segments to increase revenue
 
@@ -180,27 +164,8 @@ customer-data-analysis-dashboard/
 
 ---
 
-## ▶️ How to Use
-1.	Download the .pbix file
 
-2.	Open it using Power BI Desktop
-   
-3.	Interact with filters to explore insights
-
----
-
-## 🧠 Skills Demonstrated
-•	SQL (Aggregations, Grouping, Data Transformation)
-
-•	Data Visualization (Power BI)
-	
-•	Business Analysis & Insight Generation
-	
-•	Dashboard Design & Storytelling
-
----
-
-## 🚀 Final Note
+## 🚀 Outcome
 
 This project demonstrates the ability to combine technical SQL skills with business thinking, delivering insights that support data-driven decision-making.
 
@@ -209,4 +174,4 @@ This project demonstrates the ability to combine technical SQL skills with busin
 ## 👤 Author
 Agberhiere Kesiena Perez 
 
-Aspiring Data Analyst | Power BI | SQL  
+Aspiring Data Analyst 
