@@ -13,45 +13,64 @@
 This project analyzes customer purchasing behavior and revenue trends using an interactive Power BI dashboard.
 
 It delivers actionable insights into:
-	•	Customer demographics
-	•	Product performance
-	•	Payment preferences
-	•	Sales distribution across locations
+
+•	Customer demographics
+	
+•	Product performance
+	
+•	Payment preferences
+	
+•	Sales distribution across locations
+	
 The goal is to transform raw transactional data into business-driven decisions.
 
 ---
 
 ## 🎯 Objectives
-	•	Identify key revenue-driving customer segments
-	•	Analyze product category performance
-	•	Understand payment behavior
-	•	Evaluate sales across shopping malls
-	•	Detect seasonal trends
+•	Identify key revenue-driving customer segments
+
+•	Analyze product category performance
+
+•	Understand payment behavior
+
+•	Evaluate sales across shopping malls
+
+•	Detect seasonal trends
 
 ---
 
 ## 🛠️ Tools Used
-	•	Power BI – Data visualization & dashboarding
-	•	SQL – Data analysis & transformation
-	•	Excel – Data cleaning & preparation
+•	Power BI – Data visualization & dashboarding
+
+•	SQL – Data analysis & transformation
+
+•	Excel – Data cleaning & preparation
 
 ---
 
 ## 📊 Dashboard Features
-	•	Interactive filters (Age, Gender, Category, Location)
-	•	KPI cards for quick performance tracking
-	•	Clean, business-focused UI design
-	•	Drill-down capability for deeper insights
+•	Interactive filters (Age, Gender, Category, Location)
+
+•	KPI cards for quick performance tracking
+
+•	Clean, business-focused UI design
+
+•	Drill-down capability for deeper insights
 
 ---
 
 ## 📊 Key Insights
-	•	Female customers contribute the highest share of revenue
-	•	Middle-aged customers are the most valuable segment
-	•	Clothing is the top-performing category
-	•	Cash is the most preferred payment method
-	•	Mall of Istanbul generates the highest revenue
-	•	Revenue shows clear seasonal fluctuations
+•	Female customers contribute the highest share of revenue
+
+•	Middle-aged customers are the most valuable segment
+
+•	Clothing is the top-performing category
+	
+•	Cash is the most preferred payment method
+	
+•	Mall of Istanbul generates the highest revenue
+	
+•	Revenue shows clear seasonal fluctuations
 
 ---
 
@@ -151,25 +170,33 @@ customer-data-analysis-dashboard/
 ---
 
 ## 💡 Business Recommendations
-	•	Focus on high-value customer segments to increase revenue
-	•	Optimize and expand top-performing product categories
-	•	Encourage adoption of digital payment methods
-	•	Improve performance in underperforming locations
+•	Focus on high-value customer segments to increase revenue
+
+•	Optimize and expand top-performing product categories
+	
+•	Encourage adoption of digital payment methods
+	
+•	Improve performance in underperforming locations
 
 ---
 
 ## ▶️ How to Use
-	1.	Download the .pbix file
-	2.	Open it using Power BI Desktop
-	3.	Interact with filters to explore insights
+1.	Download the .pbix file
+
+2.	Open it using Power BI Desktop
+   
+3.	Interact with filters to explore insights
 
 ---
 
 ## 🧠 Skills Demonstrated
-	•	SQL (Aggregations, Grouping, Data Transformation)
-	•	Data Visualization (Power BI)
-	•	Business Analysis & Insight Generation
-	•	Dashboard Design & Storytelling
+•	SQL (Aggregations, Grouping, Data Transformation)
+
+•	Data Visualization (Power BI)
+	
+•	Business Analysis & Insight Generation
+	
+•	Dashboard Design & Storytelling
 
 ---
 
