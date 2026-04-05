@@ -38,6 +38,7 @@ SELECT
     COUNT(DISTINCT invoice_no) AS total_orders,
     SUM(quantity * price) / COUNT(DISTINCT invoice_no) AS avg_revenue_per_order
 FROM cx_dataset;
+```
 ---
 
 ## 📊 Key Insights
