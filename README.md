@@ -6,29 +6,71 @@
 
 ---
 
-## 📌 Project Overview
+📌 Project Overview
+
+
 This project analyzes customer purchasing behavior and revenue trends using an interactive Power BI dashboard.
 
-It provides insights into customer demographics, product performance, payment preferences, and sales distribution across locations.
 
----
 
-## 🎯 Objectives
-- Identify key revenue-driving customer segments  
-- Analyze product category performance  
-- Understand payment behavior  
-- Evaluate sales across shopping malls  
-- Detect seasonal trends  
+It delivers actionable insights into:
 
----
+Customer demographics
 
-## 🛠️ Tools Used
-- Power BI  
-- SQL 
-- Excel  
----
+Product performance
 
-## 📊 SQL Analysis
+Payment preferences
+
+Sales distribution across locations
+
+
+
+The goal is to transform raw transactional data into business-driven decisions.
+
+🎯 Objectives
+Identify key revenue-driving customer segments
+
+Analyze product category performance
+
+Understand payment behavior
+
+Evaluate sales across shopping malls
+
+Detect seasonal trends
+
+🛠️ Tools Used
+Power BI – Data visualization & dashboarding
+
+SQL – Data analysis & transformation
+
+Excel – Data cleaning & preparation
+
+📊 Dashboard Features
+Interactive filters (Age, Gender, Category, Location)
+
+KPI cards for quick performance tracking
+
+Clean, business-focused UI design
+
+Drill-down capability for deeper insights
+
+📊 Key Insights
+Female customers contribute the highest share of revenue
+
+Middle-aged customers are the most valuable segment
+
+Clothing is the top-performing category
+
+Cash is the most preferred payment method
+
+Mall of Istanbul generates the highest revenue
+
+Revenue shows clear seasonal fluctuations
+
+📊 SQL Analysis
+
+
+This section demonstrates how SQL was used to extract insights that power the dashboard and business decisions.
 
 ### 🔹 KPI Calculations
 ```sql
