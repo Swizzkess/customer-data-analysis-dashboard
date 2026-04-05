@@ -62,35 +62,19 @@ This section demonstrates how SQL was used to extract insights that power the da
 ---
 ### 🔹 KPI Calculations
 
-**Objective**:
-
-Evaluate overall business performance and efficiency per order.
-
 ```sql
 SELECT
     SUM(quantity * price) AS total_revenue,
-    SUM(quantity) AS total_quantity,
     COUNT(DISTINCT invoice_no) AS total_orders,
     SUM(quantity * price) / COUNT(DISTINCT invoice_no) AS avg_revenue_per_order
 FROM cx_dataset;
 ```
-
-
-**💡 Business Insights:**
-
-	•	Provides a high-level snapshot of business performance
-	•	Average revenue per order highlights customer spending behavior
-	•	A low average order value may indicate the need for bundling strategies
-	•	Low average order value may also indicate Opportunities for upselling / cross-selling
-	•	Helps evaluate sales efficiency per transaction
+**💡Insights:**
+	•	Reveals overall performance and highlights opportunities to increase average order value.
 
 ---
 
-### 🟢 Revenue by Gender
-
-**Objective:**
-
-Identify which customer segment contributes the most revenue.
+### 🟢 Revenue by Segment (Gender and Age)
 
 ```sql
 SELECT
@@ -100,22 +84,6 @@ FROM cx_dataset
 GROUP BY gender
 ORDER BY revenue DESC;
 ```
-
-**💡 Business Insights:**
-
-	•	Highlights top-performing customer segments
-	•	Enables targeted marketing campaigns
-	•	If one gender dominates, it shows opportunity to rebalance strategy toward underperforming segments
-	•	Useful for personalized promotions and product positioning
-
----
-
-### 🟢 Revenue by Age Group
-
-**Objective:**
-
-Understand purchasing power across different age segments.
-
 ```sql
 SELECT
 CASE
@@ -130,25 +98,12 @@ GROUP BY age_group
 ORDER BY revenue DESC;
 ```
 
-
-**💡 Business Insights:**
-
-	•	Identifies high-value customer demographics
-	•	Helps tailor:
-	•	Product offerings
-	•	Pricing strategies
-	•	Marketing channels
-	Example:
-	•	Younger customers → promotions & discounts
-	•	Older customers → premium or loyalty-focused strategies
+**💡Insights:**
+•	Identifies high value customer groupss, enabling targeted marketing and personalization.
 
 ---
 
 ### 🟢 Revenue by Product Category
-
-**Objective:**
-
-Determine which product categories drive the most revenue.
 
 ```sql
 SELECT
@@ -160,20 +115,12 @@ ORDER BY revenue DESC;
 ```
 
 
-**💡 Business Insights:**
-
-	•	Identifies top-performing and underperforming products
-	•	Supports inventory optimization and product expansion decisions
-	•	High-performing categories → invest more (ads, stock, visibility)
-	•	Low-performing categories → reassess pricing or demand
+**💡Insights:**
+•	Highlights top performing products, supporting inventory and growth strategy decisions.
 
 ---
 
 ### 🟢 Daily Revenue Trend
-
-**Objective:**
-
-Analyze revenue patterns over time.
 
 ```sql
 SELECT
@@ -185,15 +132,10 @@ ORDER BY sales_date;
 ```
 
 
-**💡 Business Insights:**
-
-	•	Reveals sales trends and seasonality patterns
-	•	Helps detect peak sales days and demand fluctuations
-	•	Enables better forecasting and Improved staffing & inventory planning
-	•	Can uncover impact of campaigns or external events
+**💡Insights:**
+•	Reveals demand and seasonality patterns to enables better forecasting and Improved staffing & inventory planning.
 
 ---
-
 
 
 ## 📂 Project Structure
